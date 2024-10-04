@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://showcases.yalco.kr/html-css/01-06/table.css">
+</head>
+<body>
+	<div>
+		<ul>
+			<li>사과</li>
+			<li>포도</li>
+			<li>딸기</li>
+			<li>
+				<ul>
+					<li>Item one</li>
+					<li>Item two</li>
+				</ul>
+			</li>
+
+
+		</ul>
+	</div>
+	<div>
+		<ol>
+			<li>사과</li>
+			<li>포도</li>
+			<li>딸기</li>
+		</ol>
+
+	</div>
+
+	<div
+		style="background-color: red; border: 2px solid yellow; display: flex; justify-content: center;">
+		<img alt="프로그래밍하는 사진" src="./images/coding.png" title="programming"
+			width="auto" height="300">
+	</div>
+	<div>
+		<hr>
+	</div>
+	<div style="display: flex;">
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">과목</th>
+					<th scope="col">월</th>
+					<th scope="col">수</th>
+					<th scope="col">금</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<th scope="row">HTML</th>
+					<td>60분</td>
+					<td>60분</td>
+					<td>0분</td>
+				</tr>
+				<tr>
+					<th scope="row">CSS</th>
+					<td>0분</td>
+					<td>30분</td>
+					<td>60분</td>
+				</tr>
+				<tr>
+					<th scope="row">JS</th>
+					<td>0분</td>
+					<td>0분</td>
+					<td>60분</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row">모든 시간</th>
+					<td>60분</td>
+					<td>90분</td>
+					<td>120분</td>
+				</tr>
+			</tfoot>
+		</table>
+		<table>
+			<tr>
+				<td>1</td>
+				<td colspan="2">2</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td rowspan="3">3</td>
+				<td>1</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td colspan="2" rowspan="2">4</td>
+
+			</tr>
+			<tr>
+				<td>1</td>
+			</tr>
+		</table>
+	</div>
+	<div style="padding: 20px">
+		<table>
+			<colgroup>
+				<col class="weekend">
+				<!-- 첫 번째 열에 'weekend' 클래스가 적용 -->
+				<col span="5">
+				<!-- 중간의 다섯 개 열에 기본 스타일 적용 -->
+				<col class="weekend">
+				<!-- 마지막 열에 'weekend' 클래스가 적용 -->
+			</colgroup>
+			<thead>
+				<tr>
+					<th>월요일</th>
+					<th>화요일</th>
+					<th>수요일</th>
+					<th>목요일</th>
+					<th>금요일</th>
+					<th>토요일</th>
+					<th>일요일</th>
+				</tr>
+			</thead>
+
+
+
+
+			<tbody>
+				<tr>
+					<td>수업</td>
+					<td>자습</td>
+					<td>수업</td>
+					<td>자습</td>
+					<td>수업</td>
+					<td>휴식</td>
+					<td>휴식</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+
+</body>
+</html>
